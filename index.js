@@ -12,7 +12,7 @@ function create(configstr) {
   if (configstr[0] === '@') {
     var configfile = configstr.slice(1);
     if (configfile.indexOf('/') === -1) {
-      configfile = path.parse(__dirname + configfile);
+      configfile = path.parse(process.cwd() + '/' + configfile);
     }
     config = fs.readFileSync(configfile);
   } else {
