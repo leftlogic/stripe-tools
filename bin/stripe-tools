@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+'use strict';
+
+var minimist = require('minimist');
+var tools = require('../');
+
+var argv = minimist(process.argv.slice(2));
+var method = argv._[0];
+
+var instance = tools.create(argv.config);
+instance[method](argv);
