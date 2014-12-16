@@ -7,7 +7,7 @@
 #### `--config`
 
 Use this to pass in the config options for stripe-tools, at present there is only one required item which is apikey
-The value can either be a JSON string liek `--config '{"apikey": "jewgr67fgasiufg"}'` or a path to a JSON file such
+The value can either be a JSON string like `--config '{"apikey": "jewgr67fgasiufg"}'` or a path to a JSON file such
 as `--config @data.json`
 
 ### Commands
