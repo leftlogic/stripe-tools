@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/leftlogic/stripe-tools",
   "dependencies": {
-    "minimist": "~1.1.0"
+    "minimist": "~1.1.0",
+    "stripe": "~3.0.2"
   }
 }
