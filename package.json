@@ -1,0 +1,24 @@
+{
+  "name": "stripe-tools",
+  "version": "0.0.0",
+  "description": "cli tools for stripe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leftlogic/stripe-tools.git"
+  },
+  "keywords": [
+    "stripe",
+    "tools",
+    "stripe-tools"
+  ],
+  "author": "Fabien O'Carroll <fabien@allou.is> (http://allou.is/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leftlogic/stripe-tools/issues"
+  },
+  "homepage": "https://github.com/leftlogic/stripe-tools"
+}
