@@ -1,5 +1,14 @@
 # stripe-tools
 
+## Installation
+
+This isn't on npm just yet installation can be done with:
+```
+$ git clone https://github.com/leftlogic/stripe-tools
+$ cd stripe-tools
+$ npm link
+```
+
 ## Usage
 
 ### Options
